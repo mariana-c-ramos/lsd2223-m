@@ -1,0 +1,46 @@
+body{
+    background: grey;
+    font-size: 22px;
+    color: #000000;
+}
+
+.wrapper{
+    width: 100%;
+    background: yellow;
+}
+
+header{
+    width: 100%;
+    height: 44px;
+    background: #ffffff;
+}
+
+.hero{
+    width: 100%;
+    height: 477px;
+    background: orange;
+}
+
+.articles{
+    width: 100%;
+    height: 200px;
+    background: pink;
+}
+
+.highlights{
+    width: 100%;
+    height: 200px;
+    background: purple;
+}
+
+.latest-news{
+    width: 100%;
+    height: 250px;
+    background: rgb(59, 59, 238);
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background: green;
+}
