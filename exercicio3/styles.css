@@ -1,0 +1,45 @@
+p{
+    color: #928b8b;
+    font-size: 18px;
+}
+
+.caixa-1{
+    /*background: #3c767e!important;*/
+    background: #3c767e;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.caixa-2{
+    background: #2b9e2b;
+    margin: 10px;
+    width: 400px;
+    height: 250px;
+}
+
+.caixa-especial{
+    background-color: #e687ab;
+}
+
+.caixa-4,
+.caixa-5{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-color: antiquewhite;
+    color: #000;
+}
+
+.caixa-5{
+    background-color: brown;
+}
+
+.caixa-1 p{
+    color: #050702;
+}
+
+.caixa-2 p{
+    color: #6817e9;
+    font-size: 14px;
+}
