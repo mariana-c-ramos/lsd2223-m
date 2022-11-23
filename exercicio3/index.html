@@ -1,22 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div style="width: 200px; min-height: 200px; background-color: blue; margin: 10px; color: #fff; padding: 50px;">
-        <div style="width: 190px; min-height: 200px; padding-left: 10px; background-color: orange; color: #fff;">
-            <p>Olá, eu sou o div 1, e gosto de ananas e cogumelos na pizza.</p>
-        </div> 
-    </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercicio 3</title>
 
-    <div style="width: 200px; min-height: 200px; background-color: blue; margin: 10px; color: #fff;; padding: 50px;" >
-        <div style="width: 190px; min-height: 200px; padding-left: 10px; background-color: orange; color: #fff;">
-            <p>Olá, eu sou o div 2, e gosto de morangos e abacaxis na pizza.</p>
+        <style>
+            /* aqui defino uma classe */
+            .caixa-1{
+                background: #3c767e!important;
+                margin: 10px;
+                width: 300px;
+                height: 300px;
+            }
+
+            /* aqui defino outra classe */
+            .caixa-2{
+                background: #2b9e2b;
+                margin: 10px;
+                width: 400px;
+                height: 250px;
+            }
+
+            /* style do texto */
+            .caixa-1 p{
+                color: #f88fa1;
+            }
+            .caixa-2 p{
+                color: #6817e9;
+            }
+            p{
+                color: #928b8b;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <!-- aqui abro um div -->
+        <div class="caixa-1" style="background: #e687ab">
+            <p>Olá, eu sou o div 1, e gosto de andar de bicicleta e de patins.</p> 
         </div>
-    </div>
-</body>
+
+        <!-- aqui abro outro div -->
+        <div class="caixa-1"></div>
+
+        <!-- aqui abro mais um div, mas com outra classe -->
+        <div class="caixa-2">
+            <p>Olá, eu sou o div 3, e gosto de ler e ouvir musica nos tempos livres.</p>
+        </div>
+
+        <p>Olá, eu sou um paragrafo alone e abandonado #sadface.</p>
+
+    </body>
 </html>
