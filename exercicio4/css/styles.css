@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../fonts/Pacifico-Regular.ttf');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: grey;
+    color: #000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    width: 100%;
+    background: yellow;
+}
+
+/* GENERAL STYLING */
+header{
+    width: 100%;
+    height: 44px;
+    background: #fff;
+    float: left;
+}
+.col-1{
+    width: 20%;
+    height: 44px;
+    float: left;
+}
+.col-2{
+    width: 60%;
+    height: 44px;
+    float: left;
+    text-align: center;
+    color: #f6755e;
+    font-family: 'Pacifico';
+}
+.col-3{
+    width: 20%;
+    height: 44px;
+    float: left;
+}
+.col-3 a{
+    display: block;
+    width: 100px;
+    margin-inline: auto;
+    margin-top: 8px;
+    text-align: center;
+    border-radius: 4px;
+    border: 2px solid #DEE1E3;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+.col-3 a:hover{
+    background-color: #DEE1E3;
+}
+
+
+/* HERO SECTION */
+.hero{
+    float: left;
+    width: 100%;
+    height: 477px;
+    background: #fff url('../imgs/banner.jpg') top center no-repeat;
+    background-size: cover;
+}
+
+.hero__info{
+    width: 50%;
+    min-height: 150px;
+    margin-inline: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.hero__info .title{
+    color: #25A2C3;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.hero__info .description{
+    color: #000000;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.hero__info .btn{
+    padding: 12px 30px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #F6755E;
+    color: #fff;
+}
+
+
+
+
+/* ARTICLES SECTION */
+.articles{
+    float: left;
+    width: 100%;
+    height: 200px;
+    background: pink;
+}
+
+/* HIGHLIGHTS SECTION */
+.highlights{
+    float: left;
+    width: 100%;
+    height: 200px;
+    background: purple;
+}
+
+/* LATEST-NEWS SECTION */
+.latest-news{
+    float: left;
+    width: 100%;
+    height: 250px;
+    background: rgb(59, 59, 238);
+}
+
+footer{
+    float: left;
+    width: 100%;
+    height: 150px;
+    background: green;
+}
