@@ -217,12 +217,12 @@ header .col-3 a:hover{
     width: 100%;
 }
 
-.center-news .col h2{
+.center-news .col .title{
     color: #25A2C3;
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.center-news .col p{
+.center-news .col .description{
     color: #767d85;
 }
 
