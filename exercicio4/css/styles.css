@@ -217,10 +217,13 @@ header .col-3 a:hover{
     width: 100%;
 }
 
-.center-news .col p:nth-child(2){
+.center-news .col h2{
     color: #25A2C3;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+.center-news .col p{
+    color: #767d85;
 }
 
 
